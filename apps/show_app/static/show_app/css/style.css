@@ -1,0 +1,41 @@
+body{
+    background-image: url(tv_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    
+}
+h1{
+    font-family: Stencil Std, fantasy;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: left;
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 300px;
+   
+}
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: Stencil Std, fantasy;
+    text-align: center;
+    padding: 3px;
+}
+button:hover {
+    background-color: royalblue; /* Green */
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 3px;
+    border: 1px solid black;
+}
+form{
+    margin-top: 15px;
+}
